@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/chriscaran',
+    href: 'https://www.linkedin.com/in/jccaran/',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
@@ -42,13 +42,28 @@ export default function Home() {
             <p className="hero-greeting">Hey, I'm</p>
             <h1 className="hero-name">Chris Caran</h1>
             <p className="hero-tagline">
-              <span className="tagline-accent">Software Engineer</span> building things that matter.
-              I love clean code, clever systems, and the occasional adventure.
+              <span className="tagline-accent">Quality Engineering Leader</span> building (and testing) things that matter.
             </p>
-            <p className="hero-bio">
-              I'm a software engineer passionate about building great user experiences and
-              scalable backend systems. When I'm not coding, you can find me hiking a volcano
-              in Iceland or hunting down the best ramen spot in town.
+            <p className="hero-bio">Experienced quality engineer, engineering leader, manager, and SDET. 
+              Worked in JavaScript, Node.js, Bash, Python, C#, Java, Groovy, Go in various automation tools and 
+              frameworks (Cypress, Selenium, etc.) over my career. I have over 15 years of testing frontend web 
+              applications, mobile apps, API testing, backend (SQL, noSQL) with experience doing ETL, 
+              data migration, and all manners of functional, performance, and security testing in single 
+              and multi-tenant environments.</p>
+    
+             <p className="hero-bio">I most recently worked in Development Operations as hands-on leader owning CI/CD, 
+              automation integration, and devops tooling in Google Cloud Platform. I owned vendor relationships 
+              and administration duties for CircleCI, Testrail, Cypress, and other tools. I am adept and quickly 
+              pivoting to new technologies and have shown this at multiple roles over my career.</p>
+
+             <p className="hero-bio">I love the chaos of small, quickly growing companies and startups but I can be 
+              an asset in whatever organization I'm in. I have built quality teams from the ground up at two 
+              different companies and have excelled at growing and mentoring my employees onto bigger and better 
+              things - many of them are now staff quality engineers, quality managers, Senior SDETs, and the like.</p>
+              <p className="hero-bio">I have led engineering-wide initiatives to improve automation and to create an 
+                engineering onboarding structure. I have excellent documentation and technical writing. I am also 
+                very experienced as an Agile leader, having been a product owner, scrum master, and been an 
+                integral part of agile transformation in multiple roles.
             </p>
             <div className="hero-actions">
               <Link to="/projects" className="btn btn-primary">View My Work</Link>
