@@ -3,7 +3,9 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Resume from './pages/Resume'
-import Projects from './pages/Projects'
+import Travel from './pages/Travel'
+import Gaming from './pages/Gaming'
+import Work from './pages/Work'
 import Blog from './pages/Blog'
 import './App.css'
 
@@ -15,7 +17,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/personal/travel" element={<Travel />} />
+          <Route path="/personal/gaming" element={<Gaming />} />
+          <Route path="/personal/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </main>
