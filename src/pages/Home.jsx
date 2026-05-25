@@ -45,13 +45,13 @@ export default function Home() {
               <span className="tagline-accent">Quality Engineering Leader</span> building (and testing) things that matter.
             </p>
             <p className="hero-bio">Experienced quality engineer, engineering leader, manager, and SDET. 
-              Worked in JavaScript, Node.js, Bash, Python, C#, Java, Groovy, Go in various automation tools and 
-              frameworks (Cypress, Selenium, etc.) over my career. I have over 15 years of testing frontend web 
+              Worked in TypeScript, JavaScript, Node.js, Bash, Python, C#, Java, Groovy, Go in various automation tools and 
+              frameworks (Playwright, Cypress, Selenium, etc.) over my career. I have over 15 years of testing frontend web 
               applications, mobile apps, API testing, backend (SQL, noSQL) with experience doing ETL, 
               data migration, and all manners of functional, performance, and security testing in single 
               and multi-tenant environments.</p>
     
-             <p className="hero-bio">I most recently worked in Development Operations as hands-on leader owning CI/CD, 
+             <p className="hero-bio">I recently worked in Development Operations as hands-on leader owning CI/CD, 
               automation integration, and devops tooling in Google Cloud Platform. I owned vendor relationships 
               and administration duties for CircleCI, Testrail, Cypress, and other tools. I am adept and quickly 
               pivoting to new technologies and have shown this at multiple roles over my career.</p>
@@ -60,6 +60,7 @@ export default function Home() {
               an asset in whatever organization I'm in. I have built quality teams from the ground up at two 
               different companies and have excelled at growing and mentoring my employees onto bigger and better 
               things - many of them are now staff quality engineers, quality managers, Senior SDETs, and the like.</p>
+              
               <p className="hero-bio">I have led engineering-wide initiatives to improve automation and to create an 
                 engineering onboarding structure. I have excellent documentation and technical writing. I am also 
                 very experienced as an Agile leader, having been a product owner, scrum master, and been an 
